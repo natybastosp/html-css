@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formatação de Textos</title>
+    <style>
+        mark{
+            background-color: rgb(255, 100, 150);
+        }
+    </style>
+</head>
+<body>
+    <!--Em html é melhor usar as tags que tem semântica-->
+    <h1>Principais formatações</h1>
+    <h2>Negrito / Descate </h2>
+    <p>Aqui temos um <b>termo em negrito </b> usando a tag B(Não semântica).</p>
+    <p>Aqui temos um <strong>termo em negrito</strong> usando a tag STRONG(Semântica).</p>
+
+    <h2>Italico / Ênfase </h2>
+    <p>Aqui temos um <i>termo em italico</i> usando a tag I(Não semântica).</p>
+    <p>Aqui temos um <em>termo em ênfase</em> usando a tag EM(Semântica).</p>
+
+    <h2>Texto marcado</h2>
+    <p>Podemos criar também <mark style="background-color: rgb(150, 100, 255);">marcar o texto</mark> usando a tag MARK.(Forma I)</p> <!--style é CSS, neste caso muda-se a cor na propia tag-->
+    <p>Podemos criar também <mark>marcar o texto</mark> usando a tag MARK.(Forma II)</p> <!--style é CSS, desta forma usa um coletor no inicio do codigo-->
+
+    <h2>Textos grande e pequeno</h2>
+    <p>Estamos criando um <big>texto grande</big> e um <small>texto pequeno</small> nesse parágrafo.</p>
+
+    <h2>Texto deletado</h2>
+    <p>Podemos marcar <del>um texto para excluído</del> para indicar que ele deve ser lido, mas não considerado.</p>
+
+    <h2>Texto inserido</h2>
+    <p>Podeoms marcar <ins>um texto como inserido</ins> para dar ênfase e indicar que ele foi adicionado depois.</p>
+    <p>Também podemos usar o <u>sublinhado</u>, com a tag U(Não semântica).</p>
+
+    <h2>Texto subrescrito</h2>
+    <p>Para inserir coisas do tipo x <sup>2x+5</sup></p>
+
+    <h2>Texto subscrito</h2>
+    <p>Para inserir coisas do tipo H<sub>2</sub>O</p>
+
+</body>
+</html>

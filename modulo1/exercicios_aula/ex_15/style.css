@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgb(119, 136, 153);
+    font-size: 15px;
+}
+h1{
+    color: rgb(119, 136, 153);
+    background-color: indigo;
+}
+h2{
+    color: indigo;
+}
+p{
+    text-align: justify;
+}

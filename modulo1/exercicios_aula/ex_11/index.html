@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media em html5</title>
+</head>
+<body>Imagens dinamicas</h1>
+    <p>Abra este site em diferentes dispositivos ou simplesmente almente e diminua sua tela</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="Imagens/Imagem_P.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="Imagens/Imagem_M.png" type="image/png">
+        <img src="Imagens/Imagem_G.png" alt="imagens flexivel">
+    </picture>
+
+    <h1>Reproduzindo audios em HTML5</h1>
+    <p>Aqui iremos ver como reproduzir audio em HTML5</p>
+    <audio preload="metadata" autoplay controls><!-- tipos de arquivos compativeis MP3 WAV OGG-->
+        <source src="Midia/Blue Dream - Cheel.mp3" type="audio/mpeg">
+        <source src="Midia/Blue Dream - Cheel.wav" type="audio/wav">
+        <source src="Midia/Blue Dream - Cheel.ogg" type="audio/ogg">
+        <!--Evite o uso so arquivo WEV pois são documentos muitos pesados-->
+        <p>Infelizmente não foi possivel abrir o audio &#x1F625; <a href="Midia/Blue Dream - Cheel.mp3">Cilque aqui para fazer o donwload o audio</a></p>
+    </audio>
+    
+</body>
+</html>
