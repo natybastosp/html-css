@@ -15,5 +15,8 @@
 <a href="https://natybastosp.github.io/html-css/modulo1/exercicios_aula/ex_09/index.html">Exercicio 9</a>
 <a href="https://natybastosp.github.io/html-css/modulo1/exercicios_aula/ex_10/index.html">Exercicio 10</a>
 <a href="https://natybastosp.github.io/html-css/modulo1/exercicios_aula/ex_11/index.html">Exercicio 11</a>
-<a href="https://natybastosp.github.io/html-css/modulo1/exercicios_aula/ex_12/index.html">Exercicio 126</a>
+<a href="https://natybastosp.github.io/html-css/modulo1/exercicios_aula/ex_12/index.html">Exercicio 12</a>
 <a href="https://natybastosp.github.io/html-css/modulo1/exercicios_aula/ex_13/index.html">Exercicio 13</a>
+<a href="https://natybastosp.github.io/html-css/modulo1/exercicios_aula/ex_14/index.html">Exercicio 14</a>
+<a href="https://natybastosp.github.io/html-css/modulo1/exercicios_aula/ex_15/index.html">Exercicio 15</a>
+<a href="https://natybastosp.github.io/html-css/modulo1/exercicios_aula/ex_16/cor01.html">Exercicio 16</a>
