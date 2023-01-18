@@ -8,12 +8,20 @@
     <style>
         body{
             height: 100vh;
-            background-color: black;
+            /*background-color: black;
             background-image: url(imagens/wallpaper002.jpg);
             background-position: center top;    
-            background-repeat: repeat-y;
-            background-size: cover;  /*ou contain, mas o contain não ira cobrir toda a tela*/
+            background-repeat: no-repeat;
+            background-size: cover;  /*obs:ou contain, mas o contain não ira cobrir toda a tela
             background-attachment: fixed;
+
+            Shorhand -> background
+                color > image> position > repeat > [size] > attachment 
+                não aceita o size, a declaração deve ser individual
+            */
+
+            background: black url('imagens/wallpaper002.jpg') center center no-repeat fixed;
+            background-size: cover;
         }
 
         main{
