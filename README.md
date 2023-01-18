@@ -19,4 +19,4 @@
 <a href="https://natybastosp.github.io/html-css/modulo1/exercicios_aula/ex_13/index.html">Exercicio 13</a>
 <a href="https://natybastosp.github.io/html-css/modulo1/exercicios_aula/ex_14/index.html">Exercicio 14</a>
 <a href="https://natybastosp.github.io/html-css/modulo1/exercicios_aula/ex_15/index.html">Exercicio 15</a>
-<a href="https://natybastosp.github.io/html-css/modulo1/exercicios_aula/ex_16/index.html">Exercicio 16</a>
+<a href="https://natybastosp.github.io/html-css/modulo1/exercicios_aula/ex_16/cor01.html">Exercicio 16</a>
