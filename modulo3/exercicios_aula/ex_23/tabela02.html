@@ -10,6 +10,13 @@
             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         }
 
+        caption{
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgrey;
+        }
+
         table{
             width: 500px;
             border-collapse: collapse;
@@ -25,16 +32,25 @@
             color: white;
         }
 
-        td.num{
-            text-align: right;
+        tbody > tr:nth-child(even){/* 2n, odd, 5n ...*/
+            background-color: lightgrey;
         }
 
+        tbody > tr:nth-child(odd){/* 2n, odd, 5n ...*/
+            background-color: white;
+            font-weight: bold;
+        }
+
+        td.num{
+            text-align: right;
+        }        
     </style>
 </head>
 <body>
 
     <!--
         Anatomia para tabelas grandes 
+        CAPITION
         TABLE 
             THEAD*
                 TR, TD, TH
@@ -46,10 +62,11 @@
     *OPCIONAL
     -->
     <table>
+        <caption>População das unidades federativas do Brasil</caption>
         <thead>
             <tr>
-                <th>Estado</th>
-                <th>População</th>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 50px;">População</th>
             </tr>
         </thead>
         <tbody>
@@ -164,8 +181,8 @@
         </tbody>
         <tfoot>
             <tr>
-                <th>Total de habitantes</th>
-                <td><strong>210.147.125</strong></td>
+                <th scope="row">Total de habitantes</th>
+                <td class="num"><strong>210.147.125</strong></td>
             </tr>
         </tfoot>
 
