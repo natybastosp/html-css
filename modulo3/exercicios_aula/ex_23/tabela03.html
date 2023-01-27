@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        table{
+            border-collapse: collapse;
+            width: 300px;
+            text-align: center;
+        }
+
+        td{
+            border: 1px solid black;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1> Mesclagem de Célula</h1>
+    <table>
+        <tr>
+            <td>A</td>
+            <td colspan="2">B</td> <!--espação de coluna, por ocupar 2 COLUNAS-->
+           
+        </tr>
+        <tr>
+            <td rowspan="3">D</td> <!--espação de linha, por ocupar 2 LINHAS-->
+            <td>E</td>
+            <td>F</td>
+        </tr>
+        <tr>
+            
+            <td>H</td>
+            <td>I</td>
+        </tr>
+        <tr>
+            
+            <td>K</td>
+            <td>L</td>
+        </tr>
+    </table>
+    
+</body>
+</html>
