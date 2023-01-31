@@ -5,7 +5,7 @@
 
  Modulo 1 
 
-<ul>
+<ul class="columns" data-columns="2">
     <li><a href="https://natybastosp.github.io/html-css/modulo1/exercicios_aula/ex_01/index.html">Exercicio 1</a></li>
     <li><a href="https://natybastosp.github.io/html-css/modulo1/exercicios_aula/ex_02/index.html">Exercicio 2</a></li>
     <li><a href="https://natybastosp.github.io/html-css/modulo1/exercicios_aula/ex_03/index.html">Exercicio 3</a></li>
