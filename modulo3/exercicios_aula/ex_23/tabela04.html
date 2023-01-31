@@ -21,10 +21,10 @@
         }
 
         th,td{
-            border: 1px solid black;
+            border: 1px solid rgb(0, 0, 0);
             padding: 10px;
             text-align: center;
-            background-color: rgb(31, 26, 26);
+            background-color: rgb(126, 126, 126);
         }
 
         th{
@@ -52,12 +52,12 @@
             <tr>
                 <th scope="col">Grupos</th>   
                 <th scope="col">Nomes</th>
-                <th colspan="3" scope="col">Filmes</th>
+                <th colspan="3" scope="colgroup">Filmes</th>
             </tr>
         </thead>
         <tbody>
             <tr >
-                <th rowspan="3">Mulheres</th>
+                <th rowspan="3" scope="rowgroup">Mulheres</th>
                 <td class="mulheres">Ana Maria Santos</td>
                 <td class="mulheres">Alien</td>
                 <td class="mulheres">Rambo</td>
@@ -76,7 +76,7 @@
                 <td class="mulheres">Big hero</td>
             </tr>
             <tr>
-                <th rowspan="3">Homens</th>
+                <th rowspan="3" scope="rowgroup">Homens</th>
                 <td class="homens">Bruno Mendonça</td>
                 <td class="homens">Intocáveis</td>
                 <td class="homens">Amnésia</td>
@@ -95,6 +95,12 @@
                 <td class="homens">Toy Store</td>
             </tr>
         </tbody>
+        <tfoot>
+            <tr>
+                <th colspan="4" scope="row">Total</th>
+                <td>1000</td>
+            </tr>
+        </tfoot>
     </table>
 </body>
 </html>
