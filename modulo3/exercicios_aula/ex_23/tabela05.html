@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela 5</title>
+    <style>
+        body{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        table{
+            border-collapse: collapse;
+            text-align: center;
+        }
+
+        caption{
+            font-size: 30px;     
+            text-align: justify;       
+        }
+
+        th, td{
+            border: 1px solid black;
+            padding: 10px;
+            width: 300px;
+        }
+
+        .type{
+            /*background-color: rgb(250, 250, 105);*/
+            color: black;
+        }
+
+        /*tr:nth-child(odd){
+            background-color: #f8f8b3;
+        }*/
+
+        col.cnome{
+            background-color: aqua;
+        }
+        
+        col.grupo{
+            background-color: blueviolet;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Exercicio tabela</h1>
+
+    <table>
+        <colgroup>
+            <col class="cnome">
+            <col class="csexo">
+            <col class="grupo" span="2">
+        </colgroup>
+        <caption>Casdastro</caption>
+        <tr>
+            <th scope="col" class="type">Nome</th>
+            <th scope="col" class="type">Sexo</th>
+            <th scope="col" class="type">Idade</th>
+            <th scope="col" class="type">Pofossão</th>
+        </tr>
+        <tr>
+            <td>Ana Maria</td>
+            <td>F</td>
+            <td>20</td>
+            <td>Jornalista</td>
+        </tr>
+        <tr>
+            <td>Gustavo</td>
+            <td>M</td>
+            <td>30</td>
+            <td>Professor</td>
+        </tr>
+        <tr>
+            <td>Natália</td>
+            <td>F</td>
+            <td>20</td>
+            <td>Dev</td>
+        </tr>
+        <tr>
+            <td>Adria</td>
+            <td>23</td>
+            <td>M</td>
+            <td>Jogadora</td>
+        </tr>
+    </table>
+
+
+</body>
+</html>
