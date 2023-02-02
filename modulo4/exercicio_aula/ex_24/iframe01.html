@@ -20,6 +20,13 @@
             background-color: darkblue;
             color: white;
         }
+
+        iframe{ /*CSS é soberano, ou seja, independente da configuração no HTML vai vai o CSS*/
+            height: 200px;
+            width: 500px;
+           /* border: 2px dashed saddlebrown;*/
+        }
+        /*Tamnaho padrão de iframe: 300x150px*/
     </style>
 </head>
 <body>
@@ -28,12 +35,14 @@
     <p>Acessando o site do <a href="https://www.cursoemvideo.com/" target="_blank">Curso em video</a> para programar</p>
 
     <h2>Com iframe</h2>
-    <p>Acessando o site do <iframe src="https://www.cursoemvideo.com/" frameborder="0">
+    <p>Acessando o site do <iframe src="https://www.cursoemvideo.com/" frameborder="1" height="300px" scolling="yes"> <!--Deopendendo do navegador o YES e NO pode variar-->
+        <!--p frameborder aceita 0(nada) ou 1 (borda), apoenas configura com uso de CSS-->
         <a href="https://www.cursoemvideo.com/"> Curso em video</a> 
         <!--Caso o navegador não seja compatiuvel com o iframe ira mostrar o que estiverescrito deste espaço. Dica: coloque o link do site usado na iframe-->
     </iframe>
     para programar
     </p>
+    
     
 </body>
 </html>
